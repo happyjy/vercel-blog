@@ -5,7 +5,6 @@ export default async function handler(req, res) {
   const { id, title, content } = req.body;
 
   try {
-    throw new Error('errrrrrrrror');
     await createPost({
       id,
       title,
